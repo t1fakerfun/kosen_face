@@ -10,6 +10,7 @@ class User(Base):
     course = Column(String)
     embedding = Column(LargeBinary)
     sex = Column(String)
+    #変更
 
     def save_face_data(name, course, embedding, sex):
         new_face = User(student_name=name, course=course, embedding=embedding, sex=sex)
