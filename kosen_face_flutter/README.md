@@ -1,4 +1,4 @@
-# kosen_face_flutter
+# flutter_app
 
 A new Flutter project.
 
